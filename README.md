@@ -3,7 +3,7 @@
 The docker build command is quite simple - it takes an optional tag name with -t and a location of the directory containing the Dockerfile.
 
 ```
-#!docker build -t gauravshindolkar/hypercar
+docker build -t gauravshindolkar/hypercar
 
 
 ```
@@ -11,7 +11,7 @@ The docker build command is quite simple - it takes an optional tag name with -t
 To run the image
 
 ```
-#!docker run -p 8888:5000 gauravshindolkar/hypercar
+docker run -p 8888:5000 gauravshindolkar/hypercar
 
 
 ```
