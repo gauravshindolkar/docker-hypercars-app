@@ -3,20 +3,20 @@ import random
 
 app = Flask(__name__)
 
-# list of cat images
+# list of car images
 images = [
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr05/15/9/anigif_enhanced-buzz-26388-1381844103-11.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr01/15/9/anigif_enhanced-buzz-31540-1381844535-8.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr05/15/9/anigif_enhanced-buzz-26390-1381844163-18.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr06/15/10/anigif_enhanced-buzz-1376-1381846217-0.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr03/15/9/anigif_enhanced-buzz-3391-1381844336-26.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr06/15/10/anigif_enhanced-buzz-29111-1381845968-0.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr03/15/9/anigif_enhanced-buzz-3409-1381844582-13.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr02/15/9/anigif_enhanced-buzz-19667-1381844937-10.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr05/15/9/anigif_enhanced-buzz-26358-1381845043-13.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr06/15/9/anigif_enhanced-buzz-18774-1381844645-6.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr06/15/9/anigif_enhanced-buzz-25158-1381844793-0.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr03/15/10/anigif_enhanced-buzz-11980-1381846269-1.gif"
+    "https://media.giphy.com/media/3o7abLiNUwnxRhQGME/giphy.gif",
+    "https://media.giphy.com/media/uCPmqlHKSNZrG/giphy.gif",
+    "https://media.giphy.com/media/ZAkltzJTslMSQ/giphy.gif",
+    "https://media.giphy.com/media/Pbze4qQvrvagw/giphy.gif",
+    "https://media.giphy.com/media/7jEqpAevFtuWQ/giphy.gif",
+    "https://media.giphy.com/media/1432wQNLGP5Qty/giphy.gif",
+    "https://media.giphy.com/media/nnrxk2VhBByxO/giphy.gif",
+    "https://media.giphy.com/media/xqeOvi8mwo3yU/giphy.gif",
+    "https://media.giphy.com/media/MK27hITj2n4d2/giphy.gif",
+    "https://media.giphy.com/media/ErpkgJJ480WOY/giphy.gif",
+    "https://media.giphy.com/media/RHtk9vcmlxeA8/giphy.gif",
+    "https://media.giphy.com/media/bfd8hxbntgfBu/giphy.gif"
 ]
 
 @app.route('/')
