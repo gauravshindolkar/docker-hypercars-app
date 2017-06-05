@@ -15,3 +15,5 @@ docker run -p 8888:5000 gauravshindolkar/hypercar
 
 
 ```
+
+The site would be running on http://*docker-machine ip*:8888/
